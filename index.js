@@ -6,7 +6,7 @@ const port = 3001;
 
 app.get("/", async (req, res) => {
   const response = await fetch(
-    "https://v6.kuramanime.run/anime/3503/saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru/episode/1",
+    "https://v6.kuramanime.run/",
     {
       headers: {
         "User-Agent":
